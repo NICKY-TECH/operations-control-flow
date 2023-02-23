@@ -22,8 +22,8 @@ if(student=='Sciences'){
 
 //Question 5
 function nearestPowerOfTwo(num){
-    let pwr=Math.pow(2,Math.floor(Math.log(num)/Math.log(2)));
+    let pwr=1<<31 - Math.clz32(num);
     return pwr;
 }
 
-console.log(nearestPowerOfTwo(8))
+console.log(nearestPowerOfTwo(15))
