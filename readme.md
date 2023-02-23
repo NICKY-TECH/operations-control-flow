@@ -1,8 +1,8 @@
 1. ) 
 1. ) Arithmetic
-1. + Addition
-2. - subtraction
-3. * multiplication
+1. +Addition
+2. -subtraction
+3. *multiplication
 4. ** exponentiation
 5. / Division
 6. % Modulus
